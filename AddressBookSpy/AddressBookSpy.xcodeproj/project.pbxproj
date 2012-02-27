@@ -19,6 +19,7 @@
 		8F0ED31714FC1FB500563787 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F0ED31614FC1FB500563787 /* libstdc++.dylib */; };
 		8F0ED31914FC1FC600563787 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F0ED31814FC1FC600563787 /* libicucore.dylib */; };
 		8F0ED31B14FC1FD800563787 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F0ED31A14FC1FD800563787 /* AddressBook.framework */; };
+		8F0ED31E14FC2A0300563787 /* ABSEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0ED31D14FC2A0300563787 /* ABSEngine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,8 @@
 		8F0ED31614FC1FB500563787 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
 		8F0ED31814FC1FC600563787 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		8F0ED31A14FC1FD800563787 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		8F0ED31C14FC2A0300563787 /* ABSEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABSEngine.h; sourceTree = "<group>"; };
+		8F0ED31D14FC2A0300563787 /* ABSEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABSEngine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 				8F0ED2FA14FC195800563787 /* ABSViewController.m */,
 				8F0ED2FC14FC195800563787 /* ABSViewController.xib */,
 				8F0ED2EE14FC195800563787 /* Supporting Files */,
+				8F0ED31C14FC2A0300563787 /* ABSEngine.h */,
+				8F0ED31D14FC2A0300563787 /* ABSEngine.m */,
 			);
 			path = AddressBookSpy;
 			sourceTree = "<group>";
@@ -207,6 +212,7 @@
 				8F0ED2F414FC195800563787 /* main.m in Sources */,
 				8F0ED2F814FC195800563787 /* ABSAppDelegate.m in Sources */,
 				8F0ED2FB14FC195800563787 /* ABSViewController.m in Sources */,
+				8F0ED31E14FC2A0300563787 /* ABSEngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

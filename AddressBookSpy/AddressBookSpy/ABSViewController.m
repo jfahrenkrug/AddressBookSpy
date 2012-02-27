@@ -8,27 +8,22 @@
 
 #import "ABSViewController.h"
 
-@interface ABSViewController ()
-
-@end
-
 @implementation ABSViewController
+@synthesize engine=_engine;
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        self.engine = [[ABSEngine alloc] init];
+    }
+    return self;
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    
+    NSLog(@"Result: %@", [self.engine runJS:@"['Welcome', 'from', 'JavaScript!'].join(' ')"]);
 }
 
 @end

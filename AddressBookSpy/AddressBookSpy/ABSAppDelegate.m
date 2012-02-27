@@ -9,7 +9,6 @@
 #import "ABSAppDelegate.h"
 
 #import "ABSViewController.h"
-#import <JavaScriptCore/JavaScriptCore.h>
 
 @implementation ABSAppDelegate
 
