@@ -23,7 +23,12 @@
 {
     [super viewDidLoad];
     
-    NSLog(@"Result: %@", [self.engine runJS:@"['Welcome', 'from', 'JavaScript!'].join(' ')"]);
+    [self.engine loadJSLibrary:@"handlebars-1.0.0.beta.6"];
+    NSString *handlebarsTest = @"\
+    var template = Handlebars.compile(\"It's log, log, it's {{size}}, it's {{weight}}, it's {{material}}!\");\
+    var context = {size: 'big', weight: 'heavy', material: 'wood'};\
+    template(context);";
+    NSLog(@"Result: %@", [self.engine runJS:handlebarsTest]);
 }
 
 @end

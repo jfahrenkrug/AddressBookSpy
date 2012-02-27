@@ -20,6 +20,8 @@
 		8F0ED31914FC1FC600563787 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F0ED31814FC1FC600563787 /* libicucore.dylib */; };
 		8F0ED31B14FC1FD800563787 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F0ED31A14FC1FD800563787 /* AddressBook.framework */; };
 		8F0ED31E14FC2A0300563787 /* ABSEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0ED31D14FC2A0300563787 /* ABSEngine.m */; };
+		8F0ED32414FC3C2800563787 /* handlebars-1.0.0.beta.6.js in Sources */ = {isa = PBXBuildFile; fileRef = 8F0ED32314FC3C2800563787 /* handlebars-1.0.0.beta.6.js */; };
+		8F0ED32514FC3D4D00563787 /* handlebars-1.0.0.beta.6.js in Resources */ = {isa = PBXBuildFile; fileRef = 8F0ED32314FC3C2800563787 /* handlebars-1.0.0.beta.6.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,7 @@
 		8F0ED31A14FC1FD800563787 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		8F0ED31C14FC2A0300563787 /* ABSEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABSEngine.h; sourceTree = "<group>"; };
 		8F0ED31D14FC2A0300563787 /* ABSEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABSEngine.m; sourceTree = "<group>"; };
+		8F0ED32314FC3C2800563787 /* handlebars-1.0.0.beta.6.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "handlebars-1.0.0.beta.6.js"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,7 @@
 		8F0ED2D814FC195800563787 = {
 			isa = PBXGroup;
 			children = (
+				8F0ED31F14FC356200563787 /* Resources */,
 				8F0ED31A14FC1FD800563787 /* AddressBook.framework */,
 				8F0ED31814FC1FC600563787 /* libicucore.dylib */,
 				8F0ED31614FC1FB500563787 /* libstdc++.dylib */,
@@ -145,6 +149,14 @@
 			path = JavaScriptCore;
 			sourceTree = "<group>";
 		};
+		8F0ED31F14FC356200563787 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8F0ED32314FC3C2800563787 /* handlebars-1.0.0.beta.6.js */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -199,6 +211,7 @@
 			files = (
 				8F0ED2F214FC195800563787 /* InfoPlist.strings in Resources */,
 				8F0ED2FE14FC195800563787 /* ABSViewController.xib in Resources */,
+				8F0ED32514FC3D4D00563787 /* handlebars-1.0.0.beta.6.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +226,7 @@
 				8F0ED2F814FC195800563787 /* ABSAppDelegate.m in Sources */,
 				8F0ED2FB14FC195800563787 /* ABSViewController.m in Sources */,
 				8F0ED31E14FC2A0300563787 /* ABSEngine.m in Sources */,
+				8F0ED32414FC3C2800563787 /* handlebars-1.0.0.beta.6.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
