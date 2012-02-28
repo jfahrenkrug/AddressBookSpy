@@ -8,13 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "AddressBookSpy/ABSViewController.m"
-         timestampString = "352071585.881848"
+         timestampString = "352083609.805778"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "11"
-         endingLineNumber = "11"
-         landmarkName = "@implementation ABSViewController"
-         landmarkType = "3">
+         startingLineNumber = "10"
+         endingLineNumber = "10">
       </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>

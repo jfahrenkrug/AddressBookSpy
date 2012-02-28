@@ -20,7 +20,6 @@
 		8F0ED31914FC1FC600563787 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F0ED31814FC1FC600563787 /* libicucore.dylib */; };
 		8F0ED31B14FC1FD800563787 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F0ED31A14FC1FD800563787 /* AddressBook.framework */; };
 		8F0ED31E14FC2A0300563787 /* ABSEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0ED31D14FC2A0300563787 /* ABSEngine.m */; };
-		8F0ED32414FC3C2800563787 /* handlebars-1.0.0.beta.6.js in Sources */ = {isa = PBXBuildFile; fileRef = 8F0ED32314FC3C2800563787 /* handlebars-1.0.0.beta.6.js */; };
 		8F0ED32514FC3D4D00563787 /* handlebars-1.0.0.beta.6.js in Resources */ = {isa = PBXBuildFile; fileRef = 8F0ED32314FC3C2800563787 /* handlebars-1.0.0.beta.6.js */; };
 /* End PBXBuildFile section */
 
@@ -78,9 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				8F0ED31F14FC356200563787 /* Resources */,
-				8F0ED31A14FC1FD800563787 /* AddressBook.framework */,
-				8F0ED31814FC1FC600563787 /* libicucore.dylib */,
-				8F0ED31614FC1FB500563787 /* libstdc++.dylib */,
 				8F0ED30C14FC1C2C00563787 /* JavaScriptCore */,
 				8F0ED2ED14FC195800563787 /* AddressBookSpy */,
 				8F0ED2E614FC195800563787 /* Frameworks */,
@@ -99,6 +95,9 @@
 		8F0ED2E614FC195800563787 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8F0ED31A14FC1FD800563787 /* AddressBook.framework */,
+				8F0ED31814FC1FC600563787 /* libicucore.dylib */,
+				8F0ED31614FC1FB500563787 /* libstdc++.dylib */,
 				8F0ED30614FC1A9300563787 /* libiOSJavaScriptCore.a */,
 				8F0ED2E714FC195800563787 /* UIKit.framework */,
 				8F0ED2E914FC195800563787 /* Foundation.framework */,
@@ -226,7 +225,6 @@
 				8F0ED2F814FC195800563787 /* ABSAppDelegate.m in Sources */,
 				8F0ED2FB14FC195800563787 /* ABSViewController.m in Sources */,
 				8F0ED31E14FC2A0300563787 /* ABSEngine.m in Sources */,
-				8F0ED32414FC3C2800563787 /* handlebars-1.0.0.beta.6.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +346,7 @@
 				8F0ED30314FC195800563787 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

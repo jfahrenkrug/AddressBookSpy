@@ -13,4 +13,9 @@
 
 @property (strong, nonatomic) ABSEngine *engine;
 
+@property (weak, nonatomic) IBOutlet UITextField *searchTermField;
+@property (weak, nonatomic) IBOutlet UILabel *resultLabel;
+
+- (IBAction)findPerson:(id)sender;
+
 @end
