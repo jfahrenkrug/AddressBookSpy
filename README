@@ -1,0 +1,2 @@
+This app shows you how to expose Objective-C or C methods to the JS environment in JavaScriptCore on iOS.
+It also shows you how to call JavaScript Code from Objective-C without using a UIWebView.
